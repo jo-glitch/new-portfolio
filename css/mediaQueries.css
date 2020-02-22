@@ -1,0 +1,251 @@
+@media screen and (max-width: 1200px){
+    #projet{
+        height: 600px;
+    }
+    
+}
+@media screen and (max-width: 1076px){
+    #propos #text #para{
+        height: 75%;
+    }
+}
+@media screen and (max-width: 1070px){
+    /* bloc formation */
+    #formation #container-formation .fromation{
+        width: 25%;
+    }
+}
+@media screen and (max-width: 1030px){
+    /* bloc experience */
+    #timeline{
+        left: 0;
+    }
+     #timeline .event{
+        width: 450px;
+        height: 150px;
+    } 
+    /* bloc formation */
+    #formation{
+        height: 1300px;
+    }
+    #formation #container-formation{
+        height: 90%;
+        display: block;
+        /* border: 1px solid; */
+    }
+    #formation #container-formation .fromation{
+        width: 50%;
+        height: 350px;
+        border: 1px solid;
+        margin: 15px auto;
+    }
+    
+    /* bloc projet */
+    #projet{
+        height: 600px;
+    }
+    #projet #projet-container{
+        display: block;
+        width: 90%;
+        /* border: 1px solid; */
+    }
+    .projet{
+        height: 30%;
+        margin-top: 25px
+    }
+    #projet #projet-container .projet{
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+@media screen and (max-width: 941px){
+    /* bloc a Propos de mois */
+    #propos{
+        height: 425px;
+    }
+    #propos #text #para{
+        width: 75%;
+        height: 70%;
+    }
+    /* bloc projet */
+    #projet #projet-container .projet{
+        width: 60%;
+    }
+}
+@media screen and (max-width: 795px){
+    /* bloc experiences */
+    #timeline .event{
+        width: 350px;
+        height: 150px;
+    } 
+    /* bloc footer */
+    #footer{
+        height: 200px;
+    }
+    #footer #container{
+        width: 100%;
+        height: 60%;
+        border: 1px solid #343A40;
+        display: block;
+    }
+    #footer #container .footer-text-left{
+        width: 45%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #footer #container .footer-icon{
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        /* border: 1px solid; */
+    }
+    #footer #container .footer-icon a{
+        margin-left: 0;
+    }
+    #arrow-up{
+        margin-top: 20px;
+        /* border: 1px solid; */
+        height: 20%;
+    }
+}
+@media screen and (max-width: 768px){
+    #projet{
+        height: 900px;
+    }
+}
+@media screen and (max-width: 768px){
+    #propos #text #para{
+        height: 80%;
+    }
+}
+@media screen and (max-width: 643px){
+    /* bloc a propos de mois */
+    #propos{
+        height: 500px;
+    }
+    #propos #text #para{
+        width: 80%;
+        height: 70%;
+    }
+    /* bloc projet */
+    #projet #projet-container .projet{
+        width: 80%;
+    }
+    #projet #projet-container .projet .lien-projet img{
+        width: 270px;
+        height: 220px;
+    }
+    /* bloc contact */
+    #contact{
+        height: 525px;
+    }
+    #contact #contact-container{
+        margin-top: 40px;
+        height: 80%;
+        display: block;
+        align-items: center;
+        /* border: 1px solid; */
+    }
+    .container-contact-logo{
+        height: 20%;
+        margin-top: 40px;
+        width: 100%;
+        /* border: 1px solid;  */
+    }
+    #propos #text #para{
+        height: 83%;
+    }
+}
+@media screen and (max-width: 550px){
+    /* bloc experiences */
+    #experiences{
+        height: 1150px;
+    } 
+    #timeline .event{
+        width: 200px;
+        height: 250px;
+    }
+    /* bloc formation */
+    #formation #container-formation .fromation h2{
+        font-size: 25px;
+    }
+    #formation #container-formation .fromation h4{
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 528px){
+    /* bloc compétences */
+    #competences{
+        height: 700px;
+    }
+    #competences #logo-comp{
+        height: 90%;
+    }
+    #competences #logo-comp #logo-comp-frist-ligne, #competences #logo-comp #logo-comp-second-ligne{
+        display: block;
+    }
+    #competences #logo-comp #logo-comp-second-ligne{
+        margin-top: -25px;
+    }
+    #competences #logo-comp #logo-comp-frist-ligne .logo, #competences #logo-comp #logo-comp-second-ligne .logo{
+        margin-top: -20px;
+        /* border: 1px solid; */
+        align-items: center;
+    }
+}
+/* TEL */
+
+@media screen and (max-width: 475px){
+    /* bloc a propos de moi */
+    #propos{
+        height: 550px;
+    }
+    #propos #text #para{
+        height: 90%;
+        width: 85%
+    }
+    /* bloc projet */
+    #projet #projet-container{
+        width: 100%;
+    }
+    /* bloc projet */
+    #projet #projet-container .projet{
+        width: 90%;
+    }
+}
+@media screen and (max-width: 405px){
+    /* bloc experiences */
+    #experiences{
+        height: 1325px;
+    }
+    #timeline .event{
+        width: 175px;
+        height: 300px;
+    } 
+}
+@media screen and (max-width: 359px){
+    /* bloc a propo de moi */
+    #propos{
+        height: 600px;
+    }
+    #propos #text #para{
+        height: 99%;
+        width: 85%;
+    }
+    /* bloc experiences */
+    #experiences{
+        height: 1400px;
+    }
+    #timeline .event{
+        width: 150px;
+        height: 325px;
+    } 
+    /* bloc projet */
+    #projet #projet-container .projet .lien-projet img{
+        width: 250px;
+        height: 200px;
+    }
+    #projet #projet-container .projet{
+        height: 75%;
+    }
+}

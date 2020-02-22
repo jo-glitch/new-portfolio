@@ -1,0 +1,96 @@
+/* tablette */
+@media screen and (max-width: 1261px){
+    section #form{
+        height: 360px;
+    }
+    #formulaire .renseignement{
+            size: 20px;
+            width: 45%;
+            border-radius: 5px;
+            padding: 10px 0 10px 0;
+            margin: 20px 20px 0px 0;
+        }
+}
+@media screen and (max-width: 991px){
+    header{
+        width: 100%;
+        height: 150px;
+        background-image : linear-gradient(to bottom, rgba(34, 47, 62, 0.7) 80px, #4834d4 70px);
+    }
+    #search{
+        margin-top: 8px;
+    }
+    #nav{
+        margin-top: 8px;
+    }
+    #nav a:hover{
+        margin-top: -2px;
+        padding-top: 64px;
+        border-top: 2px solid white;
+    }
+    header #title{
+        display: block;
+    }
+    header #title span{
+        display: block;
+        margin-left: 40px;
+    }
+    header #title .top{
+        margin-bottom: -5px;
+    }
+    header #title .bottom{
+        margin-top: -5px;
+    }
+    #formulaire .renseignement{
+        width: 45%;
+        size: 15px;
+        border-radius: 5px;
+        padding: 10px 0px 10px 0;
+        margin: 20px 5px 0 0;
+    }
+    #formulaire button{
+        width: 75%;
+        color: white;
+        border: 1px solid red;
+        background-color: red;
+        margin-top: 50px;
+        border-radius: 5px;
+    } 
+}
+@media screen and (max-width: 767px){
+    header #search, header p{
+        display: none;
+    }
+    #title img{
+        margin-left: 10px;
+    }
+    #nav a:hover{
+        border-top: none;
+        color: orange;
+    }
+    section #form{
+        height: 625px;
+    }
+    #formulaire .renseignement{
+        width: 95%;
+        padding: 10px 0 10px 0;
+        margin: 20px 10px 0 0
+    }
+    #radio #exp{
+        display: block;
+        padding-bottom: 5px;
+        margin: 30px 0 0 0;
+    }
+    #radio input{
+        margin: 5px 0 30px 0;
+    }
+    
+    /* #langage #lang, #langage input[checkbox]{
+        display: block;
+    } */
+    #langage #lang, #langage label {
+        display: block;
+        margin-bottom: 5px;
+    }
+    
+}

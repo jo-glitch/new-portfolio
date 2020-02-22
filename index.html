@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/mediaQueries.css">
+    <title>FOUBERT Joan</title>
+</head>
+<body>
+    <header id="accueil">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a href="#"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active" id="animationAccueil">
+                  <a class="nav-link" href="#photo-cv">Accueil</a>
+                </li>
+                <li class="nav-item" id="animationProjet">
+                    <a class="nav-link active" href="#projet">Projets</a>
+                </li>
+                <li class="nav-item" id="animationPropos">
+                  <a class="nav-link active" href="#propos">A propos de moi</a>
+                </li>
+                <li class="nav-item" id="animationCompetences">
+                  <a class="nav-link active" href="#competences">Compétences</a>
+                </li>
+                <li class="nav-item" id="animationContact">
+                    <a class="nav-link active" href="#contact">Contact</a>
+                </li>
+              </ul>
+            </div>
+        </nav>
+    </header>
+    <section id="photo-cv">
+        <div class="photo">
+            <img src="./asset/img/moi.gif" alt="Photo de moi">
+        </div>
+        <div class="name">
+            <div class="nom">
+                <h1>Foubert Joan</h1>
+            </div>
+            <div class="metier">
+                <h3>Dévéloppeur Front-end junior</h3>
+            </div>
+                <div class="case-cv"> 
+                    <a href="./asset/Cv.pdf" target="_blank">Télécharger cv</a>  
+                </div>
+        </div>
+    </section>
+    <section id="projet">
+        <div class="trait-red">
+            <div class="bordure-red"></div>
+        </div>
+        <div id="titre-projet">
+            <h2>Projets</h2>
+        </div>
+        <div id="projet-container">
+            <div class="container">
+                <div class="box">
+                    <div class="imgBx">
+                            <img src="./asset/img/snake.gif" alt="snake">
+                    </div>
+                    <a href="./asset/projets/snakeGame/serpent.html" class="lien-projet" target="_blank">
+                        <div class="contentBx">
+                            <div>
+                                <h2>Skane js</h2>
+                                <p>Jeu du snake réalisé avec Javascript</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="box">
+                    <div class="imgBx">
+                            <img src="./asset/img/top5.gif" alt="snake">
+                    </div>
+                    <a href="./asset/projets/ProjetJquery/index.html" class="lien-projet" target="_blank">
+                        <div class="contentBx">
+                            <div>
+                                <h2>Mon top 5</h2>
+                                <p>Mon top 5 des meilleures personnages de jeu vidéo réalisé avec JQuery </p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="box">
+                    <div class="imgBx">
+                            <img src="./asset/img/particule.gif" alt="snake">
+                    </div>
+                    <a href="./asset/projets/particules/index.html" class="lien-projet" target="_blank"></a>
+                        <div class="contentBx">
+                            <div>
+                                <h2>Particul Js</h2>
+                                <p>Une intéraction de particule réalisé en JavaScript, il est possible d'utiliser un leap Motion, sinon la souris, le clic de la souris et les flèches directionnelles sont utilies pour intéragir</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="propos">
+        <div class="trait-white">
+            <div class="bordure-white"></div>
+        </div>
+        <div id="titre-propos">
+            <h2>À propos de moi</h2>
+        </div>
+        <div id="text">
+            <div id="para">
+                <p>Actuellement en 1ère année de Développement web à L'École Multimédia (Paris 3), l'informatique me passionne depuis toujours. J'ai donc décidé d'en faire mon métier, un métier que je considère comme très challengeant et donc épanouissant. Je suis actuellement à la recherche d'un stage sur Paris du 23 mars au 30 avril 2020.</p>
+            </div>
+        </div>
+    </section>
+    <section id="competences">
+        <div class="trait-red">
+            <div class="bordure-red"></div>
+        </div>
+        <div id="titre-competence">
+            <h2>Compétences</h2>
+        </div>
+        <div id="logo-comp">
+            <div id="logo-comp-frist-ligne">
+                <div class="logo" id="html"><i class="fab fa-html5"></i></div>
+                <div class="logo" id="css"><i class="fab fa-css3-alt"></i></div>
+                <div class="logo" id="js"><i class="fab fa-js"></i></div>
+            </div>
+            <div id="logo-comp-second-ligne">
+                <div class="logo" id="bootstrap"><i class="fab fa-bootstrap"></i></div>
+                <div class="logo" id="git"><i class="fab fa-git-square"></i></div>
+                <div class="logo" id="adobe"><i class="fab fa-adobe"></i></div>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="trait-white">
+            <div class="bordure-white"></div>
+        </div>
+        <div id="titre-contact">
+            <h2>Contact</h2>
+        </div>
+        <div id="contact-container">
+            <div class="container-contact-logo">
+                <div class="contact-logo">
+                    <a href="mailto:joanfoubertetude@gmail.com"><i class="fas fa-at"></i></a>
+                </div>
+            </div>
+            <div class="container-contact-logo">
+                <div class="contact-logo">
+                    <a class="ligne" id="phone">
+                        <i class="fas fa-mobile-alt"></i>
+                    </a>
+                    <p id="number-phone">06-10-62-66-71</p>
+                </div>
+            </div>
+            <div class="container-contact-logo">
+                <div class="contact-logo">
+                    <a href="https://www.linkedin.com/in/joan-foubert-2829251a2/"class="ligne" target="_blank">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <!-- <p id="login">Meliodas_Sama#3159</p> -->
+                </div>
+            </div>
+            <!-- <div class="container-contact-logo">
+                <div class="contact-logo">
+                    <a class="ligne" id="skype">
+                        <i class="fab fa-skype"></i>
+                    </a>
+                    <p></p>
+                </div>
+            </div> -->
+        </div>
+    </section>
+    <footer id="footer">
+        <div id="container">
+            <div class="footer-text-left">
+                <h4>Foubert Joan</h4>
+                <h5>Développeur Front-end junior</h5>
+            </div>
+            <div class="footer-icon">
+                <a href="https://github.com/jo-glitch" target="_blank">
+                    <i class="fab fa-git-alt"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/joan-foubert-2829251a2/" target="_blank">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+            </div>
+        </div>
+        <div id="arrow-up">
+                <a id="top" href="#photo-cv">
+                    <i class="fas fa-sort-up"></i>
+                </a>
+        </div>
+    </footer>
+
+    <script src="./lib/all.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="./script.js"></script>
+</body>
+</html>
