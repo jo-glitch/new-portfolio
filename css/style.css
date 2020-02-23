@@ -455,6 +455,7 @@ h3{
 }
 #footer #container .footer-icon a:hover{
     color: #D01515;
+    cursor: pointer;
 }
 #arrow-up{
     width: 100%;
