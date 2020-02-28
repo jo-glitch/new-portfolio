@@ -1,4 +1,4 @@
-
+// permet de faire une transition douce
 $("#animationAccueil").click(function(){
     $("html, body").animate({scrollTop:0}, 1500);
 });
@@ -17,13 +17,10 @@ $("#animationContact").click(function(){
 $("#top").click(function(){
     $("html, body").animate({scrollTop:$("#photo-cv").offset().top}, 1500);
 });
-
+// funtion pour cacher et faire apparaître
 $(function(){
-    $('#login, #number-phone').hide();
-    $('#discord').click(function(){
-        $('#login').toggle();
-    });
+    $('#number-phone').hide();
     $('#phone').click(function(){
         $('#number-phone').toggle()
      });
- });
+ }); 

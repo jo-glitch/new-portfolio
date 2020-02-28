@@ -193,7 +193,7 @@ h3{
 }
 #projet-container .container .box:hover .imgBx{
     transform: rotateX(-90deg);
-    opacity: 0;
+    opacity: 1;
     transition-delay: 0s;
 }
 #projet-container .container .box .imgBx a img{
@@ -227,27 +227,13 @@ h3{
     opacity: 1;
     transition-delay: 0.2s;
 }
-.projet{
-    margin-top: 15px;
-    width: 45%;
-    height: 80%;
-    margin-left: 10px;
-    margin-right: 10px;
-    background-color: #ddd;
-    border: 1px solid #ddd;
-    border-radius: 15px;
-    /* position: absolute; */
-    transform-origin: top;
-    transform-style: preserve-3d;
-    transition: 0.5s;
-}
 #projet-container .projet:hover a img{
     transform: rotateX(-90deg);
     opacity: 0;
 }
-#projet-container .container .box:hover .contentBx .lien-projet{
+#projet-container .container .box:hover .contentBx{
     text-decoration: none;
-    color: #fff;
+    /* color: #333; */
 }
 /* A PROPOS DE MOI */
 #propos{
