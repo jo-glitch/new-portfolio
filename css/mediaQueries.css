@@ -221,12 +221,15 @@
     #timeline .event{
         width: 175px;
         height: 300px;
-    } 
+    }
+    #propos{
+        height: 605px;
+    }
 }
 @media screen and (max-width: 359px){
     /* bloc a propo de moi */
     #propos{
-        height: 600px;
+        height: 650px;
     }
     #propos #text #para{
         height: 99%;
@@ -247,5 +250,14 @@
     }
     #projet #projet-container .projet{
         height: 75%;
+    }
+    /* footer */
+    #footer{
+        height: 220px;
+    }
+    #arrow-up{
+        margin-top: 50px;
+        /* border: 2px solid; */
+        height: 10px;
     }
 }
