@@ -20,7 +20,11 @@ $("#top").click(function(){
 // funtion pour cacher et faire apparaître
 $(function(){
     $('#number-phone').hide();
+    $('#mail-contact').hide();
+    $('#mail').click(function(){
+        $('#mail-contact').toggle();
+    });
     $('#phone').click(function(){
-        $('#number-phone').toggle()
+        $('#number-phone').toggle();
      });
  }); 

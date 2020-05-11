@@ -1,0 +1,113 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #4834d4
+}
+/* BARRA DE NAVIGATION */
+header{
+    width: 100%;
+    height: 100px;
+    background-image : linear-gradient(to bottom, rgba(34, 47, 62, 0.7) 50px, #4834d4 50px);
+}
+#container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#search{
+    color: white;
+}
+
+#title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 43px;
+    text-transform: uppercase;
+    color: white;
+    padding-bottom: 45px;
+}
+#title #red{
+    color: red;
+}
+
+#title img{
+    width: 100px;
+    height: 100px;
+    padding: 0;
+    margin: 0;
+}
+#nav nav a{
+    text-decoration: none;
+    color : white;
+    margin-right: 10px;
+}
+#nav a:hover{
+    margin-top: -2px;
+    padding-top: 38px;
+    border-top: 2px solid white;
+}
+/* FORMULAIRE */
+section{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section #form{
+    margin-bottom: 30px;
+    margin-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    height: 380px;
+    width: 78%;
+    color: white;
+    background-color: #3C3C3C;
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px black;
+}
+#formulaire .renseignement{
+    size: 40px;
+    border-radius: 5px;
+    width: 45%;
+    padding: 10px 0px 10px 0;
+    margin: 10px 40px 20px 0;
+    
+}
+#formulaire .renseignement:focus{
+    outline: orange solid;
+}
+#radio #exp{
+    display: inline;
+    padding-bottom: 20px;
+    margin: 0 0 30px 0;
+}
+#radio input{
+    margin: 20px 0 30px 0;
+}
+#langage #lang {
+    display: inline;
+}
+#formulaire #button{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#formulaire button{
+    width: 75%;
+    color: white;
+    border: 1px solid red;
+    background-color: red;
+    margin-top: 50px;
+    padding: 15px 0 15px 0;
+    /* margin-left: 125px; */
+    border-radius: 5px;
+}
+button{
+    cursor: pointer;
+    font-size: 15px;
+}
